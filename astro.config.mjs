@@ -7,7 +7,6 @@ import icon from 'astro-icon';
 
 export default defineConfig({
   site: "https://Pkeaney.github.io",
-  base: "/my-portfolio-site",
   integrations: [mdx(), sitemap(), tailwind(), icon()],
 });
 
